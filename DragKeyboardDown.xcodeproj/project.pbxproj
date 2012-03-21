@@ -1,0 +1,280 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FDA703741519A6D0006AD2B6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDA703731519A6D0006AD2B6 /* UIKit.framework */; };
+		FDA703761519A6D0006AD2B6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDA703751519A6D0006AD2B6 /* Foundation.framework */; };
+		FDA703781519A6D0006AD2B6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDA703771519A6D0006AD2B6 /* CoreGraphics.framework */; };
+		FDA7037E1519A6D0006AD2B6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FDA7037C1519A6D0006AD2B6 /* InfoPlist.strings */; };
+		FDA703801519A6D0006AD2B6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA7037F1519A6D0006AD2B6 /* main.m */; };
+		FDA703841519A6D0006AD2B6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA703831519A6D0006AD2B6 /* AppDelegate.m */; };
+		FDA703871519A6D0006AD2B6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA703861519A6D0006AD2B6 /* ViewController.m */; };
+		FDA7038A1519A6D0006AD2B6 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FDA703881519A6D0006AD2B6 /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FDA7036F1519A6D0006AD2B6 /* DragKeyboardDown.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DragKeyboardDown.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDA703731519A6D0006AD2B6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FDA703751519A6D0006AD2B6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FDA703771519A6D0006AD2B6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FDA7037B1519A6D0006AD2B6 /* DragKeyboardDown-Info.plist */ = {isa = PBXFileReference; path = "DragKeyboardDown-Info.plist"; sourceTree = "<group>"; };
+		FDA7037D1519A6D0006AD2B6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FDA7037F1519A6D0006AD2B6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FDA703811519A6D0006AD2B6 /* DragKeyboardDown-Prefix.pch */ = {isa = PBXFileReference; path = "DragKeyboardDown-Prefix.pch"; sourceTree = "<group>"; };
+		FDA703821519A6D0006AD2B6 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		FDA703831519A6D0006AD2B6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FDA703851519A6D0006AD2B6 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		FDA703861519A6D0006AD2B6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FDA703891519A6D0006AD2B6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FDA7036C1519A6D0006AD2B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDA703741519A6D0006AD2B6 /* UIKit.framework in Frameworks */,
+				FDA703761519A6D0006AD2B6 /* Foundation.framework in Frameworks */,
+				FDA703781519A6D0006AD2B6 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FDA703641519A6CF006AD2B6 = {
+			isa = PBXGroup;
+			children = (
+				FDA703791519A6D0006AD2B6 /* DragKeyboardDown */,
+				FDA703721519A6D0006AD2B6 /* Frameworks */,
+				FDA703701519A6D0006AD2B6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FDA703701519A6D0006AD2B6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDA7036F1519A6D0006AD2B6 /* DragKeyboardDown.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FDA703721519A6D0006AD2B6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FDA703731519A6D0006AD2B6 /* UIKit.framework */,
+				FDA703751519A6D0006AD2B6 /* Foundation.framework */,
+				FDA703771519A6D0006AD2B6 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FDA703791519A6D0006AD2B6 /* DragKeyboardDown */ = {
+			isa = PBXGroup;
+			children = (
+				FDA703821519A6D0006AD2B6 /* AppDelegate.h */,
+				FDA703831519A6D0006AD2B6 /* AppDelegate.m */,
+				FDA703851519A6D0006AD2B6 /* ViewController.h */,
+				FDA703861519A6D0006AD2B6 /* ViewController.m */,
+				FDA703881519A6D0006AD2B6 /* ViewController.xib */,
+				FDA7037A1519A6D0006AD2B6 /* Supporting Files */,
+			);
+			path = DragKeyboardDown;
+			sourceTree = "<group>";
+		};
+		FDA7037A1519A6D0006AD2B6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FDA7037B1519A6D0006AD2B6 /* DragKeyboardDown-Info.plist */,
+				FDA7037C1519A6D0006AD2B6 /* InfoPlist.strings */,
+				FDA7037F1519A6D0006AD2B6 /* main.m */,
+				FDA703811519A6D0006AD2B6 /* DragKeyboardDown-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FDA7036E1519A6D0006AD2B6 /* DragKeyboardDown */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDA7038D1519A6D0006AD2B6 /* Build configuration list for PBXNativeTarget "DragKeyboardDown" */;
+			buildPhases = (
+				FDA7036B1519A6D0006AD2B6 /* Sources */,
+				FDA7036C1519A6D0006AD2B6 /* Frameworks */,
+				FDA7036D1519A6D0006AD2B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DragKeyboardDown;
+			productName = DragKeyboardDown;
+			productReference = FDA7036F1519A6D0006AD2B6 /* DragKeyboardDown.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FDA703661519A6CF006AD2B6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = dianping.com;
+			};
+			buildConfigurationList = FDA703691519A6CF006AD2B6 /* Build configuration list for PBXProject "DragKeyboardDown" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FDA703641519A6CF006AD2B6;
+			productRefGroup = FDA703701519A6D0006AD2B6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FDA7036E1519A6D0006AD2B6 /* DragKeyboardDown */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FDA7036D1519A6D0006AD2B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDA7037E1519A6D0006AD2B6 /* InfoPlist.strings in Resources */,
+				FDA7038A1519A6D0006AD2B6 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FDA7036B1519A6D0006AD2B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDA703801519A6D0006AD2B6 /* main.m in Sources */,
+				FDA703841519A6D0006AD2B6 /* AppDelegate.m in Sources */,
+				FDA703871519A6D0006AD2B6 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FDA7037C1519A6D0006AD2B6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDA7037D1519A6D0006AD2B6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FDA703881519A6D0006AD2B6 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDA703891519A6D0006AD2B6 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FDA7038B1519A6D0006AD2B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FDA7038C1519A6D0006AD2B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FDA7038E1519A6D0006AD2B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DragKeyboardDown/DragKeyboardDown-Prefix.pch";
+				INFOPLIST_FILE = "DragKeyboardDown/DragKeyboardDown-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FDA7038F1519A6D0006AD2B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DragKeyboardDown/DragKeyboardDown-Prefix.pch";
+				INFOPLIST_FILE = "DragKeyboardDown/DragKeyboardDown-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FDA703691519A6CF006AD2B6 /* Build configuration list for PBXProject "DragKeyboardDown" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDA7038B1519A6D0006AD2B6 /* Debug */,
+				FDA7038C1519A6D0006AD2B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDA7038D1519A6D0006AD2B6 /* Build configuration list for PBXNativeTarget "DragKeyboardDown" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDA7038E1519A6D0006AD2B6 /* Debug */,
+				FDA7038F1519A6D0006AD2B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FDA703661519A6CF006AD2B6 /* Project object */;
+}
