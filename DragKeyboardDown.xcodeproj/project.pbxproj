@@ -15,6 +15,10 @@
 		FDA703841519A6D0006AD2B6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA703831519A6D0006AD2B6 /* AppDelegate.m */; };
 		FDA703871519A6D0006AD2B6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA703861519A6D0006AD2B6 /* ViewController.m */; };
 		FDA7038A1519A6D0006AD2B6 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FDA703881519A6D0006AD2B6 /* ViewController.xib */; };
+		FDA703931519AAC5006AD2B6 /* ResizeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA703911519AAC5006AD2B6 /* ResizeViewController.m */; };
+		FDA703941519AAC5006AD2B6 /* ResizeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FDA703921519AAC5006AD2B6 /* ResizeViewController.xib */; };
+		FDA703971519B48E006AD2B6 /* ScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA703961519B48D006AD2B6 /* ScrollViewController.m */; };
+		FDA7039A1519BB18006AD2B6 /* DragDownViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA703991519BB18006AD2B6 /* DragDownViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +26,22 @@
 		FDA703731519A6D0006AD2B6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		FDA703751519A6D0006AD2B6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		FDA703771519A6D0006AD2B6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		FDA7037B1519A6D0006AD2B6 /* DragKeyboardDown-Info.plist */ = {isa = PBXFileReference; path = "DragKeyboardDown-Info.plist"; sourceTree = "<group>"; };
+		FDA7037B1519A6D0006AD2B6 /* DragKeyboardDown-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DragKeyboardDown-Info.plist"; sourceTree = "<group>"; };
 		FDA7037D1519A6D0006AD2B6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FDA7037F1519A6D0006AD2B6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		FDA703811519A6D0006AD2B6 /* DragKeyboardDown-Prefix.pch */ = {isa = PBXFileReference; path = "DragKeyboardDown-Prefix.pch"; sourceTree = "<group>"; };
-		FDA703821519A6D0006AD2B6 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		FDA703811519A6D0006AD2B6 /* DragKeyboardDown-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DragKeyboardDown-Prefix.pch"; sourceTree = "<group>"; };
+		FDA703821519A6D0006AD2B6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FDA703831519A6D0006AD2B6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		FDA703851519A6D0006AD2B6 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		FDA703851519A6D0006AD2B6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		FDA703861519A6D0006AD2B6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		FDA703891519A6D0006AD2B6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		FDA703901519AAC5006AD2B6 /* ResizeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResizeViewController.h; sourceTree = "<group>"; };
+		FDA703911519AAC5006AD2B6 /* ResizeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResizeViewController.m; sourceTree = "<group>"; };
+		FDA703921519AAC5006AD2B6 /* ResizeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ResizeViewController.xib; sourceTree = "<group>"; };
+		FDA703951519B48D006AD2B6 /* ScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollViewController.h; sourceTree = "<group>"; };
+		FDA703961519B48D006AD2B6 /* ScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollViewController.m; sourceTree = "<group>"; };
+		FDA703981519BB18006AD2B6 /* DragDownViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DragDownViewController.h; sourceTree = "<group>"; };
+		FDA703991519BB18006AD2B6 /* DragDownViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DragDownViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +94,13 @@
 				FDA703861519A6D0006AD2B6 /* ViewController.m */,
 				FDA703881519A6D0006AD2B6 /* ViewController.xib */,
 				FDA7037A1519A6D0006AD2B6 /* Supporting Files */,
+				FDA703901519AAC5006AD2B6 /* ResizeViewController.h */,
+				FDA703911519AAC5006AD2B6 /* ResizeViewController.m */,
+				FDA703921519AAC5006AD2B6 /* ResizeViewController.xib */,
+				FDA703951519B48D006AD2B6 /* ScrollViewController.h */,
+				FDA703961519B48D006AD2B6 /* ScrollViewController.m */,
+				FDA703981519BB18006AD2B6 /* DragDownViewController.h */,
+				FDA703991519BB18006AD2B6 /* DragDownViewController.m */,
 			);
 			path = DragKeyboardDown;
 			sourceTree = "<group>";
@@ -151,6 +169,7 @@
 			files = (
 				FDA7037E1519A6D0006AD2B6 /* InfoPlist.strings in Resources */,
 				FDA7038A1519A6D0006AD2B6 /* ViewController.xib in Resources */,
+				FDA703941519AAC5006AD2B6 /* ResizeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,6 +183,9 @@
 				FDA703801519A6D0006AD2B6 /* main.m in Sources */,
 				FDA703841519A6D0006AD2B6 /* AppDelegate.m in Sources */,
 				FDA703871519A6D0006AD2B6 /* ViewController.m in Sources */,
+				FDA703931519AAC5006AD2B6 /* ResizeViewController.m in Sources */,
+				FDA703971519B48E006AD2B6 /* ScrollViewController.m in Sources */,
+				FDA7039A1519BB18006AD2B6 /* DragDownViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

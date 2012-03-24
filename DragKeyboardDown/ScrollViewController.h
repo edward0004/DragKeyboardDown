@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  ScrollViewController.h
 //  DragKeyboardDown
 //
 //  Created by Yimin Tu on 12-3-21.
@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ResizeViewController.h"
 
-@interface ViewController : UITableViewController
+@interface ScrollViewController : ResizeViewController
 
 @end

@@ -7,54 +7,69 @@
 //
 
 #import "ViewController.h"
+#import "ResizeViewController.h"
+#import "ScrollViewController.h"
+#import "DragDownViewController.h"
 
 @implementation ViewController
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Release any cached data, images, etc that aren't in use.
-}
-
-#pragma mark - View lifecycle
-
-- (void)viewDidLoad
-{
+- (void)viewDidLoad {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    self.navigationItem.title = @"Drag Keyboard Down";
 }
 
-- (void)viewDidUnload
-{
-    [super viewDidUnload];
-    // Release any retained subviews of the main view.
-    // e.g. self.myOutlet = nil;
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+    return 3;
 }
 
-- (void)viewWillAppear:(BOOL)animated
-{
-    [super viewWillAppear:animated];
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cell"];
+    if(!cell) {
+        cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"cell"] autorelease];
+    }
+    switch (indexPath.row) {
+        case 0:
+            cell.textLabel.text = @"resize with keyboard";
+            break;
+        case 1:
+            cell.textLabel.text = @"scroll & resize when table on foot";
+            break;
+        case 2:
+            cell.textLabel.text = @"drag down keyboard";
+            break;
+    }
+    return cell;
 }
 
-- (void)viewDidAppear:(BOOL)animated
-{
-    [super viewDidAppear:animated];
-}
-
-- (void)viewWillDisappear:(BOOL)animated
-{
-	[super viewWillDisappear:animated];
-}
-
-- (void)viewDidDisappear:(BOOL)animated
-{
-	[super viewDidDisappear:animated];
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    switch (indexPath.row) {
+        case 0: {
+            ResizeViewController *view = [[ResizeViewController alloc] initWithNibName:@"ResizeViewController" bundle:[NSBundle mainBundle]];
+            [self.navigationController pushViewController:view animated:YES];
+            [view release];
+            break;
+        }
+        case 1: {
+            ScrollViewController *view = [[ScrollViewController alloc] initWithNibName:@"ResizeViewController" bundle:[NSBundle mainBundle]];
+            [self.navigationController pushViewController:view animated:YES];
+            [view release];
+            break;
+        }
+        case 2: {
+            DragDownViewController *view = [[DragDownViewController alloc] initWithNibName:@"ResizeViewController" bundle:[NSBundle mainBundle]];
+            [self.navigationController pushViewController:view animated:YES];
+            [view release];
+            break;
+        }
+        default:
+            break;
+    }
 }
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
     // Return YES for supported orientations
-    return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
+    return YES;
 }
 
 @end
