@@ -1,1 +1,5 @@
 A sample of how to implement the drag keyboard down effect like Apple's SMS app.
+一个能让iOS的键盘可以想Apple的短信程序一样工作的示例程序。
+
+The application is buggy and far from complete. If you know a better implementation, pls join in to make it better.
+这个程序目前还不是很完善，如果你有更好的实现方式请加入进来。
